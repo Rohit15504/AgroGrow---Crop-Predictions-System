@@ -8,10 +8,18 @@ AgroGrow is a machine learning-based system designed to assist farmers and agric
 
 - **Accurate Crop Recommendations**: Predicts the most suitable crop based on key environmental parameters.
 - **Interactive Web Interface**: Dynamically input data via a user-friendly website.
-- **Multi-Model Approach**: Employs Logistic Regression, Random Forest, and Support Vector Machines (SVC) for high accuracy.
-- **Scalable Solution**: Easily adaptable to include additional parameters or datasets.
-
 ---
+
+## Model Comparison and Selection 📊
+
+During the development of AgroGrow, evalutaion of three machine learning models was done to determine the best fit for crop prediction based on their accuracy scores:
+
+- **Logistic Regression**: 94.55%
+- **Support Vector Machine (SVC)**: 96.14%
+- **Random Forest**: **99.32%**
+
+After analyzing the results, **Random Forest** was chosen as the final model for its superior accuracy and ability to handle complex patterns in the data effectively.
+
 
 ## Dataset 📊
 
